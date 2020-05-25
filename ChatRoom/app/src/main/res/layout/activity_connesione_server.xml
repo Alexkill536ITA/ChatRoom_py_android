@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Connesione_server">
+
+    <android.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3843D3"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:subtitleTextColor="#ffffff"
+        android:titleMarginStart="20dp"
+        android:titleTextColor="#ffffff"></android.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/join_chatroom"
+            android:textSize="36sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textw_nickname" />
+
+            <EditText
+                android:id="@+id/editText_name"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+                android:ems="10"
+                android:hint="Anonymus"
+                android:inputType="text"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="210dp">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ip_e_port" />
+
+            <EditText
+                android:id="@+id/editText_serverip"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:digits="1234567890."
+                android:ems="10"
+                android:hint="IP Address"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tex_duepunti" />
+
+            <EditText
+                android:id="@+id/editText_severport"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:digits="1234567890"
+                android:ems="10"
+                android:hint="Port"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:text="" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/rounded_rectangle_wahit"
+            android:backgroundTint="#3843D3"
+            android:text="@string/Join"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

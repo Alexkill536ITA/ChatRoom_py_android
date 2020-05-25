@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ChatRoom</string>
+    <string name="Join">Join</string>
+    <string name="join_chatroom">Join ChatRoom</string>
+    <string name="tex_duepunti">:</string>
+    <string name="ip_e_port">Ip e Port:</string>
+    <string name="textw_nickname">Nickname:</string>
+    <string name="btn_send">SEND</string>
+    <string name="enter_message">Enter message</string>
+    <string name="viewText_registrazione">Registrazione</string>
+    <string name="icon_add">icon_add</string>
+    <string name="v_data_e_ora">Data e Ora:</string>
+    <string name="data_ora_out">Null</string>
+    <string name="button_cancella">Cancella</string>
+    <string name="button_registra">Registra</string>
+    <string name="ediText_nickname">Nickname</string>
+    <string name="EditText_password">Password</string>
+    <string name="EditText_ripetere_password">Ripetere Password</string>
+    <string name="button_login">Login</string>
+    <string name="Button_login">Login</string>
+</resources>

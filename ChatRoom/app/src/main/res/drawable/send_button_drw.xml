@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid
+                android:color="#3843D3">
+            </solid>
+            <corners
+                android:radius="20dp">
+            </corners>
+        </shape>
+    </item>
+    <item>
+        <bitmap android:src="@drawable/ic_action_send"
+            android:gravity="center_vertical"
+            android:tint="#ffffff"/>
+    </item>
+</layer-list>
